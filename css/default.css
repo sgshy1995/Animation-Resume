@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.token.comment {
+    color: black;
+}
+.token.selector {
+    color: black;
+}
+.token.punctuation {
+    color: black;
+}
+.token.property {
+    color: black;
+}
+.token.function, .token.class-name {
+    color: black;
+}
+#code{
+    height: 100vh;
+    overflow: hidden;
+}
+#paper .content{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: "Kai";
+}
